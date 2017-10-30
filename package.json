@@ -1,0 +1,27 @@
+{
+  "name": "mean-board",
+  "version": "1.0.0",
+  "description": "NodeJS Board",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldminer1030/mean-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldminer1030/mean-board/issues"
+  },
+  "homepage": "https://github.com/goldminer1030/mean-board#readme"
+}
