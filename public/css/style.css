@@ -1,3 +1,20 @@
+/* public/css/style.css */
+
+/* global style */
 h1 {
  color: darkseagreen;
+}
+.buttons form{
+ display: inline-block;
+}
+/* post style */
+h2 {
+ color: tomato;
+ text-align: center;
+}
+.post .post-body{
+ white-space: pre-line; /* 1 */
+}
+.post .posts .date{
+ width: 100px;
 }
