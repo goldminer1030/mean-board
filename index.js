@@ -10,10 +10,10 @@ var app = express();
 mongoose.connect(process.env.MONGO_DB, { useMongoClient: true });
 var db = mongoose.connection;
 db.once("open", function(){
- console.log("DB connected");
+  console.log("DB connected");
 });
 db.on("error", function(err){
- console.log("DB ERROR : ", err);
+  console.log("DB ERROR : ", err);
 });
 
 // Other settings
@@ -29,5 +29,5 @@ app.use("/posts", require("./routes/posts"));
 
 // Port setting
 app.listen(3000, function(){
- console.log("server on!");
+  console.log("server on!");
 });
